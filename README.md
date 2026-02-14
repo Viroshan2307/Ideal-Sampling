@@ -3,7 +3,9 @@
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
 # Program
-IDEAL SAMPLING:
+
+# IDEAL SAMPLING
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -52,7 +54,9 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
-NATURAL SAMPLING:
+```
+# NATURAL SAMPLING
+```
 # #Natural sampling
 import numpy as np
 import matplotlib.pyplot as plt
@@ -93,7 +97,9 @@ plt.plot(t, message_signal, label='Original Message Signal')
 plt.legend()
 plt.grid(True)
 
-FLAT TOP SAMPLING:
+```
+# FLAT TOP SAMPLING
+```
 #Flat-top Sampling
 import numpy as np
 import matplotlib.pyplot as plt
@@ -161,16 +167,20 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
+```
 
 # Output Waveform
-IDEALSAMPLING
-<img width="1189" height="790" alt="545514946-50a83352-0467-4d45-97fb-3bc5218ae6f1" src="https://github.com/user-attachments/assets/b4e49303-6e37-456c-bba9-d79dd94c0c8b" />
-NATURAL SAMPLING
-<img width="1390" height="989" alt="545515483-18de145b-0877-4b6b-bf47-9fa50162254c" src="https://github.com/user-attachments/assets/51222288-a8c1-46c2-80d3-e04717e3f177" />
-FLAT TOP SAMPLING
-<img width="1398" height="990" alt="545515968-6984b98c-4483-422a-9446-a06f3c179a8c" src="https://github.com/user-attachments/assets/a073b319-b1fe-4034-a795-9a1ca42e470f" />
-# Results 
+# IDEAL SAMPLING
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/50a83352-0467-4d45-97fb-3bc5218ae6f1" />
+
+# NATURAL SAMPLING
+<img width="1390" height="989" alt="image" src="https://github.com/user-attachments/assets/18de145b-0877-4b6b-bf47-9fa50162254c" />
+
+# FLAT TOP SAMPLING
+<img width="1398" height="990" alt="image" src="https://github.com/user-attachments/assets/6984b98c-4483-422a-9446-a06f3c179a8c" />
+
+
+
+# Results
+
 Thus, the construction and reconstruction of Ideal, Natural, and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
-
-
